@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+  font-family: "Press Start 2P", "VT323";
+  color: #111;
+  background: url("./assets/brgbml.png") no-repeat center center;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  align-items: center;
+  justify-content: center;
+}
+.bid-wrapper {
+  width: 500px;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 30px 50px 30px;
+  background-color: #111111;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 0px 0px 60px 0px rgb(0 0 0 / 3%);
+  color: #fff;
+}
