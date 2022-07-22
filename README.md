@@ -20,6 +20,3 @@ In demo i connect nft token, you can start, after it you can bid and after end a
 npm install
 npm start
 ```
-
-
-# NFT-English-Auction
